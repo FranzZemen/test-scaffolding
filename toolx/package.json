@@ -1,0 +1,10 @@
+{
+  "name": "toolx",
+  "version": "0.0.1",
+  "description": "Bin Tools",
+  "type": "commonjs",
+  "bin": {
+    "toolx": "bin/clean",
+    "cleanx": "bin/clean"
+  }
+}

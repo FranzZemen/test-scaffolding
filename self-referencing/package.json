@@ -1,0 +1,12 @@
+{
+  "name": "@franzzemen/self-referencing-test-scaffolding",
+  "version": "0.0.1",
+  "description": "Collocated Test Scaffolding Strategy",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+  },
+  "exports": {
+    ".": "./transient/dist/index.js"
+  }
+}

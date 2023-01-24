@@ -1,0 +1,27 @@
+{
+  "name": "@franzzemen/test-scaffolding",
+  "version": "1.0.0",
+  "description": "Exploring several test scaffolding strategies",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "npm run install-toolx",
+    "install-toolx": "cd toolx && tsc && cd .. && npm install ./toolx",
+    "clean": "npx cleanx",
+    "build": "cd collocated && tsc && cd ../commingled && tsc && cd ..",
+    "test": "mocha **/*.test.js\n"
+  },
+  "keywords": [],
+  "author": "Franz Zemen",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/chai": "^4.3.4",
+    "@types/mocha": "^10.0.1",
+    "@types/node": "^18.11.18",
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "toolx": "file:toolx"
+  }
+}

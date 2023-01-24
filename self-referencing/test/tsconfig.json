@@ -1,0 +1,14 @@
+{
+  "extends": "../../base.tsconfig.json",
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "esnext",
+    "outDir": "../transient/test",
+    "rootDir": "./",
+    "moduleResolution": "NodeNext"
+  },
+  "include": ["**/*"],
+  "exclude": [
+    "node_modules"
+  ]
+}

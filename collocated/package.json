@@ -1,0 +1,9 @@
+{
+  "name": "@franzzemen/collocated-test-scaffolding",
+  "version": "0.0.1",
+  "description": "Collocated Test Scaffolding Strategy",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+  }
+}
